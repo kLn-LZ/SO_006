@@ -14,10 +14,10 @@ public class Main {
         }
 
         Thread ThreadV1 = new ThreadVetor(2, vet);
-        ThreadV1.run();
+        ThreadV1.start();
 
         Thread ThreadV2 = new ThreadVetor(1, vet);
-        ThreadV2.run();
+        ThreadV2.start();
 
 
     }
